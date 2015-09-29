@@ -1,0 +1,40 @@
+2014-12-08T03:02:30.998Z INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-114O4KFO3KY1V/script-runner.jar s3://us-west-2.elasticmapreduce/libs/pig/pig-script --run-pig-script --pig-versions 0.11.1.1 --args -f s3://mr-project/movie_open.pig -p OUTPUT=s3://mr-project/large-10_op/Pig/op1 -p INPUT1=s3://mr-project/csv_half_training_set.csv -p INPUT2=s3://mr-project/csv_movie_titles.csv'
+2014-12-08T03:02:31.000Z INFO Environment:
+  TERM=linux
+  CONSOLE=/dev/console
+  JAVA_HOME=/usr/lib/jvm/java-7-oracle
+  SHLVL=5
+  HADOOP_IDENT_STRING=hadoop
+  HIVE_HOME=/home/hadoop/hive
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  HADOOP_HOME_WARN_SUPPRESS=true
+  PWD=/
+  INIT_VERSION=sysvinit-2.88
+  _=/usr/lib/jvm/java-7-oracle/bin/java
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_HOME=/home/hadoop
+  LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib:
+  runlevel=2
+  SHELL=/bin/sh
+  VERBOSE=no
+  previous=N
+  CASCADING_SDK_HOME=/home/hadoop/Cascading-2.5-SDK
+  HADOOP_LOGFILE=syslog
+  PATH=/usr/local/cuda/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/home/hadoop/bin:/home/hadoop/hive/bin:/home/hadoop/Cascading-2.5-SDK/tools/multitool-20140224/bin:/home/hadoop/Cascading-2.5-SDK/tools/load-20140223/bin:/home/hadoop/Cascading-2.5-SDK/tools/lingual-client/bin:/home/hadoop/Cascading-2.5-SDK/driven/bin
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-114O4KFO3KY1V
+  RUNLEVEL=2
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-114O4KFO3KY1V/tmp
+  PREVLEVEL=N
+  HOME=/home/hadoop
+  LANG=en_US.UTF-8
+2014-12-08T03:02:31.000Z INFO redirectOutput to /mnt/var/log/hadoop/steps/s-114O4KFO3KY1V/stdout
+2014-12-08T03:02:31.001Z INFO redirectError to /mnt/var/log/hadoop/steps/s-114O4KFO3KY1V/stderr
+2014-12-08T03:02:31.001Z INFO Working dir /mnt/var/lib/hadoop/steps/s-114O4KFO3KY1V
+2014-12-08T03:02:31.036Z INFO ProcessRunner started child process 2803 :
+hadoop    2803  1530  0 03:02 ?        00:00:00 bash /home/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-114O4KFO3KY1V/script-runner.jar s3://us-west-2.elasticmapreduce/libs/pig/pig-script --run-pig-script --pig-versions 0.11.1.1 --args -f s3://mr-project/movie_open.pig -p OUTPUT=s3://mr-project/large-10_op/Pig/op1 -p INPUT1=s3://mr-project/csv_half_training_set.csv -p INPUT2=s3://mr-project/csv_movie_titles.csv
+2014-12-08T03:02:31.043Z INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-114O4KFO...
+2014-12-08T03:17:31.116Z INFO Process still running
+2014-12-08T03:19:17.124Z INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-114O4KFO...
+2014-12-08T03:19:18.828Z INFO Step created jobs: job_201412080300_0001,job_201412080300_0002,job_201412080300_0003,job_201412080300_0004,job_201412080300_0005,job_201412080300_0006,job_201412080300_0007
+2014-12-08T03:19:30.748Z INFO Step succeeded with exitCode 0 and took 1019 seconds
